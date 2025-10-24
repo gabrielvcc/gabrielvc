@@ -59,33 +59,6 @@ document.addEventListener('DOMContentLoaded', () => {
         setInterval(() => checkStatus(appItem), 60000); 
     });
 
-
-    const profilePic = document.getElementById('profilePic');
-    const profileModalBackdrop = document.getElementById('profileModalBackdrop');
-    const closeModalButton = document.getElementById('closeModal');
-
-    profilePic.addEventListener('click', () => {
-        profileModalBackdrop.classList.add('visible');
-    });
-
-    closeModalButton.addEventListener('click', () => {
-        profileModalBackdrop.classList.remove('visible');
-    });
-
-    // Fecha o modal ao clicar fora do conteúdo
-    profileModalBackdrop.addEventListener('click', (event) => {
-        if (event.target === profileModalBackdrop) {
-            profileModalBackdrop.classList.remove('visible');
-        }
-    });
-
-    // Fecha o modal ao pressionar ESC
-    document.addEventListener('keydown', (event) => {
-        if (event.key === 'Escape' && profileModalBackdrop.classList.contains('visible')) {
-            profileModalBackdrop.classList.remove('visible');
-        }
-    });
-
 });
 
     const loadingOverlay = document.getElementById('loadingOverlay');
