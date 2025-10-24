@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hub de apps - gabrielvc</title>
+    <link rel="icon" href="/favicon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <main class="main-content">
+        <header class="main-header">
+            <h1 class="main-title">
+                <span class="highlight-text">gabrielvc</span>
+            </h1>
+            <div class="profile-pic" id="profilePic"></div>
+        </header>
+
+        <section class="apps-section">
+            <h2>Aplicativos gabrielvc:</h2>
+            <ul class="apps-list">
+                <li class="app-item" data-logo-src="/assets/imgs/LoadingCroquis.png" data-app-color="#F8991E">
+                    <div class="app-details">
+                        <img class="app-preview-image" src="/assets/imgs/imgprevcroquis.png" alt="Preview Croquis">
+                        <div class="app-info">
+                            <a href="https://croquis.gabrielvc.com.br" target="_blank">croquis.gabrielvc.com.br</a>
+                            <p class="app-description">Criador de croquis para fachadas</p>
+                        </div>
+                    </div>
+                    <div class="status">
+                        <span class="status-indicator"></span>
+                        <span class="status-text">Verificando...</span>
+                    </div>
+                </li>
+                <li class="app-item" data-logo-src="/assets/imgs/LoadingCalculo.png" data-app-color="#009CDA">
+                    <div class="app-details">
+                        <img class="app-preview-image" src="/assets/imgs/imgprevcalculo.png" alt="Preview Calculoperfil">
+                        <div class="app-info">
+                            <a href="https://calculoperfil.gabrielvc.com.br" target="_blank">calculoperfil.gabrielvc.com.br</a>
+                            <p class="app-description">Cálculo de resistência de perfis de alumínio.</p>
+                        </div>
+                    </div>
+                    <div class="status">
+                        <span class="status-indicator"></span>
+                        <span class="status-text">Verificando...</span>
+                    </div>
+                </li>
+                <li class="app-item" data-logo-src="/assets/imgs/LoadingSpotify.png" data-app-color="#1DB954">
+                    <div class="app-details">
+                        <img class="app-preview-image" src="/assets/imgs/imgprevspotify.png" alt="Preview Spotify">
+                        <div class="app-info">
+                            <a href="https://spotify.gabrielvc.com.br" target="_blank">spotify.gabrielvc.com.br</a>
+                            <p class="app-description">Dashboard para visualização de estatísticas do meu perfil do Spotify.</p>
+                        </div>
+                    </div>
+                    <div class="status">
+                        <span class="status-indicator"></span>
+                        <span class="status-text">Verificando...</span>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </main> <div class="profile-modal-backdrop" id="profileModalBackdrop">
+        <div class="profile-modal-content">
+            <button class="close-modal" id="closeModal">&times;</button>
+            <div class="profile-modal-image">
+                <img src="/assets/imgs/imgprof.jpg" alt="Foto de Perfil GabrielVC">
+            </div>
+            <div class="profile-modal-info">
+                <h3>Gabriel Varnes Cardoso</h3>
+                <p><strong>Idade:</strong> 22 anos</p>
+                <p><strong>Função:</strong> Engenheiro | Projetista de Esquadrias</p>
+                <p><strong>Sobre mim:</strong> Shinjidai.</p>
+
+                <div class="social-links">
+                    <a href="https://twitter.com/gabrielvcc" target="_blank" class="social-link-item">
+                        <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#1DA1F2">
+                            <path d="M22.46 6c-.77.35-1.6.58-2.46.67.88-.53 1.56-1.37 1.88-2.38-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29 0 .34.04.67.11.98-3.56-.18-6.73-1.89-8.84-4.48-.37.63-.58 1.37-.58 2.15 0 1.49.76 2.81 1.91 3.58-.71 0-1.37-.22-1.95-.54v.05c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07 4.28 4.28 0 0 0 4 2.98 8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21c7.34 0 11.35-6.08 11.35-11.35 0-.17 0-.34-.01-.51.78-.56 1.45-1.26 1.99-2.06z"/>
+                        </svg>
+                        <span>@gabrielvcc</span>
+                    </a>
+                    <a href="https://instagram.com/gabriel.vcardoso" target="_blank" class="social-link-item">
+                        <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <defs>
+                                <radialGradient id="ig-gradient" cx="0.3" cy="1.2" r="1.2">
+                                    <stop offset="0" stop-color="#FCDA74"/>
+                                    <stop offset="0.25" stop-color="#F4A65A"/>
+                                    <stop offset="0.5" stop-color="#D8306C"/>
+                                    <stop offset="0.75" stop-color="#A535B8"/>
+                                    <stop offset="1" stop-color="#6444D0"/>
+                                </radialGradient>
+                            </defs>
+                            <path fill="url(#ig-gradient)" d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.85s-.011 3.584-.069 4.85c-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07s-3.584-.012-4.85-.07c-3.252-.148-4.771-1.691-4.919-4.919-.058-1.265-.069-1.645-.069-4.85s.011-3.584.069-4.85c.149-3.225 1.664-4.771 4.919-4.919C8.416 2.175 8.796 2.163 12 2.163zm0 1.442c-3.115 0-3.483.01-4.703.065-2.61.12-3.832 1.34-3.953 3.953-.054 1.22-.065 1.587-.065 4.703s.01 3.483.065 4.703c.12 2.61 1.34 3.832 3.953 3.953 1.22.054 1.587.065 4.703.065s3.483-.01 4.703-.065c2.61-.12 3.832-1.34 3.953-3.953.054-1.22.065-1.587.065-4.703s-.01-3.483-.065-4.703c-.12-2.61-1.34-3.832-3.953-3.953C15.483 3.615 15.115 3.605 12 3.605zm0 2.88c-2.855 0-5.165 2.31-5.165 5.165s2.31 5.165 5.165 5.165 5.165-2.31 5.165-5.165-2.31-5.165-5.165-5.165zm0 8.492c-1.832 0-3.327-1.495-3.327-3.327s1.495-3.327 3.327-3.327 3.327 1.495 3.327 3.327-1.495 3.327-3.327 3.327zm6.406-6.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.44-.645 1.44-1.44s-.645-1.44-1.44-1.44z"/>
+                        </svg>
+                        <span>@gabriel.vcardoso</span>
+                    </a>
+                    <a href="https://linkedin.com/in/gabrielvcc" target="_blank" class="social-link-item">
+                        <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#0A66C2">
+                            <path d="M20.5 2h-17A1.5 1.5 0 0 0 2 3.5v17A1.5 1.5 0 0 0 3.5 22h17a1.5 1.5 0 0 0 1.5-1.5v-17A1.5 1.5 0 0 0 20.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 1 1 8.25 6.5 1.75 1.75 0 0 1 6.5 8.25zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93-.94 0-1.62.68-1.62 1.93V19h-3v-9h2.9v1.3a3.11 3.11 0 0 1 2.7-1.4c1.55 0 3.38 1.02 3.38 3.56V19z"/>
+                        </svg>
+                        <span>@gabrielvcc</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="loading-overlay" id="loadingOverlay">
+    <div class="loading-circle" id="loadingCircle">
+        <img src="" alt="Carregando..." class="loading-logo" id="loadingLogo">
+    </div>
+</div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
